@@ -4,7 +4,7 @@ jQuery(function($) {
     $(document).ready(function() {
 
 
-        var server_location = "http://localhost:8080/api/get-count";
+        var server_location = "https://localhost:8080/api/get-count";
         var initialCount = 0; 
         var timeTakenToShowAllWords = 0; // This is the time taken to show all the words.
         var regex1 = "([a-zA-Z0-9]+)"; // Matching only a word pattern - alphanumeric.
